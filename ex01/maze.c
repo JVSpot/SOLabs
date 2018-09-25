@@ -132,6 +132,8 @@ static void addToGrid (grid_t* gridPtr, vector_t* vectorPtr, char* type){
     for (i = 0; i < n; i++) {
         coordinate_t* coordinatePtr = (coordinate_t*)vector_at(vectorPtr, i);
         // TODO validar ponto
+
+        //stuff
     }
     grid_addPath(gridPtr, vectorPtr);
 }
