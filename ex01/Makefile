@@ -5,7 +5,7 @@ CC = gcc
 CFLAGS = -c
 
 CircuitRouter-SeqSolver : CircuitRouter-SeqSolver.o 
-	$(CC) coordinate.o grid.o CircuitRouter-SeqSolver.o maze.o routerlib/vector.o -lm -o CircuitRouter-SeqSolver
+	$(CC) coordinate.o grid.o CircuitRouter-SeqSolver.o maze.o router.o lib/vector.o -lm -o CircuitRouter-SeqSolver
 CircuitRouter-SeqSolver.o: CircuitRouter-SeqSolver.c 
 	$(CC) $(CFLAGS) CircuitRouter-SeqSolver.c
 
