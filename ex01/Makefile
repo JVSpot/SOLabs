@@ -15,10 +15,10 @@ grid.o: grid.c grid.h
 coordinate.o: coordinate.c coordinate.h
 	$(CC) $(CFLAGS) coordinate.c
 
-maze.o: maze.c maze.h lib/list.h
+maze.o: maze.c maze.h lib/list.h lib/queue.h
 	$(CC) $(CFLAGS) maze.c
 
-router.o: router.c router.h queue.h
+router.o: router.c router.h lib/queue.h
 	$(CC) $(CFLAGS) router.c
 
 lib/list.o: lib/list.c lib/list.h
