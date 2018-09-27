@@ -2,7 +2,7 @@
 # Sistemas Operativos, DEI/IST/ULisboa 2018-19
 
 CC = gcc
-CFLAGS = -c
+CFLAGS = -c .ansi -pedantic
 
 CircuitRouter-SeqSolver : CircuitRouter-SeqSolver.o lib/list.o lib/list.h
 	$(CC) coordinate.o grid.o CircuitRouter-SeqSolver.o maze.o router.o lib/list.o lib/vector.o -lm -o CircuitRouter-SeqSolver
