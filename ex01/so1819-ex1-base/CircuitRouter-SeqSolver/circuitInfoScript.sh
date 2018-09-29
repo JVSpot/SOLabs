@@ -5,7 +5,7 @@ do
 	connections="$(grep -c p ${input})"
 	echo  
 	echo ${input}
-	echo Number of connections : ${conections}
+	echo Number of connections : ${connections}
 	echo Number of Lines in file : ${lines}
 
 
