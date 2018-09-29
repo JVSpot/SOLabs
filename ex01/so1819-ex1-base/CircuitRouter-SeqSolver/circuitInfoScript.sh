@@ -1,6 +1,6 @@
 #!/bin/bash
-for input in inpuys/*.txt
+for input in inputs/*.txt
 do
 	wc -l ${input}
-	
+
 done
