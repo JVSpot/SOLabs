@@ -5,8 +5,8 @@ do
 	conections = "$(grep -c p ${input})"
 	echo  
 	echo ============= ${input} ===============
-	echo = Number of conections : "${conections}"
-	echo = Number of Lines in file : "${lines}"
+	echo = Number of conections : "$conections"
+	echo = Number of Lines in file : "$lines"
 
 
 
