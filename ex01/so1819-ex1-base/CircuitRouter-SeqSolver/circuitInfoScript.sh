@@ -4,9 +4,9 @@ do
 	lines = "$(wc -l < ${input})"
 	conections = "$(grep -c p ${input})"
 	echo  
-	echo ============= ${input} ===============
-	echo = Number of conections : $conections
-	echo = Number of Lines in file : $lines
+	echo ${input}
+	echo Number of conections : ${conections}
+	echo Number of Lines in file : ${lines}
 
 
 
