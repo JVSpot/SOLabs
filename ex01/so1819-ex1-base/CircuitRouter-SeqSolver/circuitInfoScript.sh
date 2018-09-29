@@ -1,6 +1,9 @@
 #!/bin/bash
 for input in inputs/*.txt
 do
-	wc -l grep p ${input}
+	echo ==== ${input} ====
+	wc -l ${input}
+	grep -c p ${input}
+
 
 done
