@@ -1,6 +1,6 @@
 #!/bin/bash
 for input in inputs/*.txt
 do
-	wc -l ${input}
+	wc -l grep p ${input}
 
 done
